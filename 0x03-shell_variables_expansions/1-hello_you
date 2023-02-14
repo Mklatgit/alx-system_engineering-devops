@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello $(whoami)"
+echo "Hello $(git config --global user.name)"
